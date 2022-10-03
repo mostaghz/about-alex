@@ -1,0 +1,16 @@
+body {
+    background-color: lightgrey;
+    font-family: Helvetica, sans-serif;
+}
+
+img {
+    border: 2px solid #000000;
+}
+
+#li\ 2, #li\ 4 {
+    color: darkmagenta;
+}
+
+#li\ 1, #li\ 3, #li\ 5 {
+    color: orangered;
+}
