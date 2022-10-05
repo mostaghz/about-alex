@@ -1,10 +1,17 @@
 body {
     background-color: lightgrey;
     font-family: Helvetica, sans-serif;
+
 }
 
 img {
     border: 2px solid #000000;
+    border-radius: 50%;
+    width: 300px;
+    height: 400px;
+    object-fit: fill;
+    object-position: 80% 100%;
+
 }
 
 #li\ 2, #li\ 4 {
@@ -12,5 +19,42 @@ img {
 }
 
 #li\ 1, #li\ 3, #li\ 5 {
-    color: orangered;
+    color: purple;
+}
+h1  {
+
+    text-align: center;
+
+}body {
+
+     text-align: center;
+ }
+.tenor-gif-embed {
+    display:block;
+    margin: 0 auto;
+}
+
+.choice {
+    height: 400px;
+    display: inline-block;
+    width: 100px;
+}
+
+.result {
+    height: 330px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.choice {
+    height: 400px;
+    display: inline-block;
+    width: 100px;
+}
+
+.result {
+    height: 330px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
 }
